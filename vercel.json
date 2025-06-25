@@ -1,10 +1,5 @@
 {
   "buildCommand": "yarn build --filter=@calcom/web",
   "outputDirectory": "apps/web/.next",
-  "installCommand": "yarn install",
-  "functions": {
-    "apps/web/pages/api/**.ts": {
-      "maxDuration": 60
-    }
-  }
+  "installCommand": "yarn install --frozen-lockfile"
 }
